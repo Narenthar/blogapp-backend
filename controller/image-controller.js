@@ -1,7 +1,7 @@
 const grid = require("gridfs-stream");
 const mongoose = require("mongoose");
 
-const url = "https://blogapp-narenthar.herokuapp.com/";
+const url = "https://blog-narenthar.herokuapp.com";
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
